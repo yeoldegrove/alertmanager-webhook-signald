@@ -35,7 +35,7 @@ type Request struct {
 
 func (r *Request) SetType(t string) {
 	r.Type = t
-	r.Version = "v0"
+	r.Version = "v1"
 }
 
 func (r *Request) SetID(id int) {
